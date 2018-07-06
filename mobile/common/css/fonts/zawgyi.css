@@ -1,0 +1,18 @@
+@font-face {
+    font-family: 'Zawgyi-Tai';
+    font-style: normal;
+    font-weight: normal;
+    src:local('Zawgyi-Tai');
+    src: url('/common/fonts/my/Zawgyi-Tai.eot');
+    src: url('/common/fonts/my/Zawgyi-Tai.eot?#iefix') format('embedded-opentype'),
+    url('/common/fonts/my/Zawgyi-Tai.woff') format('woff'),
+    url('/common/fonts/my/Zawgyi-Tai.ttf') format('ttf');
+}
+
+body, input, textarea, button, select, a {font-family: 'Roboto', 'Roboto Condensed', 'Zawgyi-Tai', Yunghkio, Myanmar3, 'Masterpiece Uni Sans', sans-serif;}
+
+.viewLess {padding: 0 5px; font-size: 10px;}
+
+.promo-box h2 {font-size: 13px;}
+
+.sports-buttons .gamebutton h2 {margin-bottom: 0 !important;}

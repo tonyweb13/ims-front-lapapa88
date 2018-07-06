@@ -1,0 +1,4 @@
+@font-face {
+    font-family:'Padauk';
+    src:local('Padauk'), url('/common/fonts/my/padauk.woff') format('woff'), url('/common/fonts/my/padauk.ttf') format('ttf');
+}

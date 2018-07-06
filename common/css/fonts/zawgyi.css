@@ -1,0 +1,33 @@
+@font-face {
+    font-family: 'Zawgyi-Tai';
+    font-style: normal;
+    font-weight: normal;
+    src:local('Zawgyi-Tai');
+    src: url('/common/fonts/my/Zawgyi-Tai.eot');
+    src: url('/common/fonts/my/Zawgyi-Tai.eot?#iefix') format('embedded-opentype'),
+    url('/common/fonts/my/Zawgyi-Tai.woff') format('woff'),
+    url('/common/fonts/my/Zawgyi-Tai.ttf') format('ttf');
+}
+
+@font-face {
+    font-family: 'Zawgyi-One';
+    font-style: normal;
+    font-weight: normal;
+    src:local('Zawgyi-One');
+    src: url('/common/fonts/my/Zawgyi-One.eot');
+    src: url('/common/fonts/my/Zawgyi-One.eot?#iefix') format('embedded-opentype'),
+    url('/common/fonts/my/Zawgyi-One.woff') format('woff'),
+    url('/common/fonts/my/Zawgyi-One.ttf') format('ttf');
+}
+
+@font-face {
+    font-family: 'myanmar3';
+    font-style: normal;
+    font-weight: normal;
+    src:local('myanmar3');
+    src: url('/common/fonts/my/myanmar3.woff') format('woff'),
+    url('/common/fonts/my/mm3-multi-os.ttf') format('ttf');
+}
+
+body, input, textarea, button, select, #lang-list li
+{font-family: 'Roboto Condensed', 'cwTeXFangSong', 'Dotum', 'Zawgyi-One', Yunghkio, Myanmar3, 'Masterpiece Uni Sans', sans-serif;}

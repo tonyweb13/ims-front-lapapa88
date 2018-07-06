@@ -1,0 +1,38 @@
+body, input, textarea, button, select, a, #lang-list li
+{font-family: 'Roboto Condensed', 'cwTeXFangSong', 'Dotum', 'Zawgyi-Tai', Yunghkio, Myanmar3, 'Masterpiece Uni Sans', "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", Osaka, "メイリオ", Meiryo, "ＭＳ Ｐゴシック", "MS PGothic", Arial, sans-serif;}
+
+#nav-container ul li,
+#nav-container ul li a,
+.box-promos h3, .box-products h3, .box-customer h3,
+.product-items p,
+table.footer-table,
+.titleMobile li,
+.popup-desc,
+.balanceContainer,
+#popup-notice,
+#popup-notice .popup-content,
+.row-box em.note,
+#promo-slider p,
+#wallet-promo-slider p,
+.slot-item p, .slot-item strong,
+.signup-form,
+#popup-transfer, #popup-deposit,
+.sweet-alert,
+.safari-notice,
+#popup-transaction,
+.promo-box strong, .promo-box p,
+.promo-details-img p, .promo-details-body
+{font-family: 'Roboto', 'Dotum', 'cwTeXFangSong', 'Zawgyi-Tai', Yunghkio, Myanmar3, 'Masterpiece Uni Sans', "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", Osaka, "メイリオ", Meiryo, "ＭＳ Ｐゴシック", "MS PGothic", Arial, sans-serif;}
+
+.jackpot h1,
+.product-items h1,
+.customer-service,
+.service-advantages h1,
+.pageTitleImage strong, .titleMobile h1,
+#popup-transfer h1, #popup-notice h1,
+.game-button h3,
+.popup-tabs ul.popTabs li
+{font-family: 'Roboto Condensed', 'Nanum Gothic', 'cwTeXFangSong', 'Zawgyi-Tai', Yunghkio, Myanmar3, 'Masterpiece Uni Sans', "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", Osaka, "メイリオ", Meiryo, "ＭＳ Ｐゴシック", "MS PGothic", Arial, sans-serif;}
+
+
+#popup-wallet .popup-tabs ul.popTabs li {padding: 0 8px;}

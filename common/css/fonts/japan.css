@@ -1,0 +1,36 @@
+body, input, textarea, button, select, a, #lang-list li {font-family: 'Roboto Condensed', 'Zawgyi-Tai', "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", Osaka, "メイリオ", Meiryo, "ＭＳ Ｐゴシック", "MS PGothic", Arial, sans-serif;}
+
+#nav-container ul li, #nav-container ul li a {font-size: 10px;}
+.masthead h1 strong {font-size: 34px;}
+.jackpot h1 {font-size: 18px; line-height: 24px;}
+
+/*Game Buttons*/
+#game-buttons-4 .game-button h3 {font-size: 14px; line-height: 20px;}
+#game-buttons-3 .game-button h3 {font-size: 18px; line-height: 28px;}
+#game-buttons-2 .game-button h3 {font-size: 18px; letter-spacing: -1px;}
+
+/*Product Items*/
+#promo-slider h1 {font-size: 23px;}
+.product-items h1 {font-size: 21px; letter-spacing: 0;}
+
+/*Customer Center*/
+.customer-livechat {letter-spacing: -2px;}
+
+/*Promo Page*/
+.promo-box {min-height: 315px;}
+
+/*Popup*/
+#popup-wallet .popup-tabs ul.popTabs li {padding: 0 16px;}
+.btn-option {font-size: 10px;}
+.depositBank_radio {font-family: "Roboto Condensed", sans-serif;}
+
+.signup-form label {letter-spacing: -1px !important; width: 180px; font-size: 12px;}
+.signup-form label.msg {letter-spacing: 0 !important;}
+
+.error, .valid {width: 167px;}
+.icon-tip-currency {left: 5px !important;}
+
+#popup-forgotpass .popup-tabs ul li {padding: 0 12px !important; width: auto;}
+
+.partnership-box h3 {font-size: 14px;}
+.partnership-box p {font-size: 11px;}

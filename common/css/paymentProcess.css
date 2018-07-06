@@ -1,0 +1,38 @@
+body {line-height: 1; overflow: hidden; font-size: 12px; font-weight: 400; font-family: 'Roboto', sans-serif; color: #666666; background: #ffffff;}
+.payment-process {width: 880px; padding: 10px; margin: 0 auto; background: #ffffff;}
+
+.payment-summary {display: block; padding: 5px 14px; border-radius: 10px; background: url("/common/images/bg-payment-summary.png") top repeat-x #404045; color: #aeaeb2;}
+.payment-summary label {text-align: right; display: inline-block; line-height: 21px;}
+.payment-summary label strong {color: #ffffff; margin: 0 0 0 10px;}
+
+.payment-summary span {display: inline-block; line-height: 22px; font-size: 10px;}
+.payment-summary span strong {color: #80dfea;}
+.payment-summary span i.icon-info {width: 20px; height: 20px; margin: 1px 5px 0 0; float: left; background: url("/common/images/icon-info-white.png") 0 0 no-repeat; display: inline-block; position: relative; top: 1px; left: 0;}
+
+.payment-summary-item {display: block; margin-top: 8px; padding: 7px 0 15px 0;}
+.payment-summary-item p {width: 24.7%; display: inline-block; border-right: 1px solid #3b3c3f; text-align: center;}
+.payment-summary-item label {color: #8e8e8e; display: block; float: none; text-align: center; font-size: 11px; line-height: 20px !important;}
+.payment-summary-item strong {color: #ffffff; display: block; font-size: 18px; font-weight: 700; line-height: 22px;}
+.totalAmount {border: none !important;}
+.totalAmount strong {color: #ff9c00;}
+
+.payment-form {padding: 10px 10px 20px 10px;}
+.payment-form form h2 {color: #3e4052; font-size: 14px; line-height: 30px; border-bottom: 1px solid #c1c1c4; padding: 0 5px; margin: 10px 0 20px;}
+.payment-form form div.form-group {width: 406px; display: inline-block; padding: 3px; vertical-align: middle; position: relative;}
+.payment-form form label {width: 160px; line-height: 28px; padding-left: 28px; display: inline-block;}
+.payment-form form .inputField {width: 233px;}
+
+.inputField-md {width: 95px !important;}
+.inputField-xs {width: 66px !important;}
+
+em.required-fields {margin: 0;}
+p.selectCardType {display: inline-block;}
+
+.cardType_radio {height: 30px !important; float: none; padding-left: 0 !important; line-height: 20px !important;}
+.selectCardType i {height: 27px !important;}
+i.logo-visa, i.logo-mastercard, i.logo-unionpay {background-size: 80% !important;}
+
+.icon-tip-sec-code {top: 5px !important; left: 4px !important; position: relative !important; display: inline-block;}
+.tooltipSecCode {display: none; width: 185px; height: auto !important; padding: 7px 10px; line-height: 16px !important; top: -138px; left: 239px; box-shadow: 2px 2px 10px rgba(0,0,0,0.2) !important;}
+
+.poweredby {float: none; padding-top: 11px; text-align: right; border-top: 1px dotted #e7e7e7;}

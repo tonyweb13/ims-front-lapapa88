@@ -1,0 +1,634 @@
+@media only screen and (orientation: portrait) {
+    .bg-home {background-position: center 40px; background-color: #f0f0f0; background-size: 130%;}
+    .bg-casino {background-position: center 40px; background-color: #f0f0f0; background-size: 130%;}
+    .bg-sports {background-position: center 40px; background-color: #f0f0f0; background-size: 130%;}
+    .bg-slot {background-position: center 24px; background-color: #191919; background-size: 130%;}
+    .bg-poker {background-position: center 24px; background-color: #000000; background-size: 130%;}
+
+    .btn-amounts button.btn {width: 20.2%;}
+}
+@media only screen and (min-width: 320px) and (orientation: portrait) {
+    .bg-home {background-size: 150%;}
+    .bg-casino {background-size: 150%;}
+    .bg-sports {background-size: 150%;}
+    .bg-slot {background-size: 150%;}
+    .bg-poker {background-size: 150%;}
+}
+@media only screen and (max-width: 375px) and (orientation: portrait) {
+    .bg-home {background-size: 180%;}
+    .bg-casino {background-size: 170%;}
+    .bg-sports {background-size: 180%;}
+    .bg-slot {background-size: 120%;}
+    .bg-poker {background-size: 150%;}
+}
+@media only screen and (min-width: 400px) and (orientation: portrait) {
+    .bg-home {background-size: 190%;}
+    .bg-casino {background-size: 170%;}
+    .bg-sports {background-size: 170%;}
+    .bg-slot {background-size: 120%;}
+    .bg-poker {background-size: 120%;}
+}
+
+@media only screen and (orientation: landscape) {
+    body {padding-top: 0 !important;}
+    .bg-home {/*background-position: center 40px; */background-color: #f0f0f0; background-size: 130%;}
+    .bg-casino {background-position: center 40px; background-color: #060235; background-size: 130%;}
+    .bg-sports {background: url("../images/masthead-sports-landscape.png") -24px 40px no-repeat #516968;}
+    .bg-slot {background-position: center 40px; background-color: #000000; background-size: 130%;}
+    .bg-poker {background-position: center 40px; background-color: #000000; background-size: 130%;}
+
+    /*.popup {position: absolute !important;}*/
+    #popup-deposit {margin-top: 1% !important;}
+    .promo-img {width: 25%; float: left; background-size: 80%; min-height: 80px;}
+    .promo-item-desc {width: 75%; float: right;}
+
+    /*.slot-buttons .gamebuttons {margin-bottom: 60px;}*/
+    .safari-notice {padding: 30px 0;}
+
+    .sports-buttons .promo-desc, .livecasino-buttons .promo-desc, .slot-buttons .promo-desc, .poker-buttons .promo-desc {display: block;}
+    .sports-buttons .icon-promo, .livecasino-buttons .icon-promo, .slot-buttons .icon-promo, .poker-buttons .icon-promo {display: none;}
+
+    .sports-buttons, .livecasino-buttons, .slot-buttons, .poker-buttons {width: 100%; padding: 0; margin: 0; display: table; /*height: 100%;*/ position: relative; top: 0; left: 0;}
+    .sports-buttons .gamebutton-wrapper, .livecasino-buttons .gamebutton-wrapper, .slot-buttons .gamebutton-wrapper {padding: 0; vertical-align: middle; display: table-cell; margin: 0;}
+    .sports-buttons .gamebuttons, .livecasino-buttons .gamebuttons, .slot-buttons .gamebuttons, .poker-buttons .gamebuttons {width: 280px; float: right; margin-right: 10px; margin-top: 3px; margin-bottom: 60px;}
+
+    #sports-buttons-5 .gamebutton p {display: none;}
+}
+@media only screen and (max-height: 320px) and (orientation: landscape) {
+    .bg-home {/*background-position: -175px 39px;*/ background-color: #f0f0f0; background-size: 170%;}
+    .bg-casino {background-position: -175px 39px; background-color: #471521; background-size: cover;}
+    .bg-sports {/*background-position: -175px 39px;*/ background-color: #f0f0f0; background-size: cover;}
+    .bg-slot {background-position: -145px 19px; background-color: #000000; background-size: cover;}
+    .bg-poker {background-position: -145px 19px; background-color: #000000; background-size: cover;}
+
+    #popup-notice .popup-content {max-height: 130px;}
+}
+@media only screen and (min-height: 360px) and (orientation: landscape) {
+    .bg-home {/*background-position: -190px 39px;*/ background-color: #f0f0f0; background-size: 170%;}
+    .bg-casino {background-position: -190px 39px; background-color: #471521; background-size: cover;}
+    .bg-sports {/*background-position: -190px 39px;*/ background-color: #f0f0f0; background-size: cover;}
+    .bg-slot {background-position: -159px 19px; background-color: #000000; background-size: cover;}
+    .bg-poker {background-position: -159px 19px; background-color: #000000; background-size: cover;}
+}
+
+/*Game Buttons*/
+@media only screen and (max-width: 320px) and (orientation: portrait) {
+    .main-buttons .gamebutton {height: 93px !important; background-size: 110% !important;}
+    .main-buttons .gamebutton h2 {font-size: 14px !important; margin-top: 48px !important;}
+    .main-buttons .gamebutton button {font-size: 0.8em !important;}
+
+    #sports-buttons-5 .gamebutton, #sports-buttons-4 .gamebutton, #sports-buttons-3 .gamebutton {width: 48% !important;}
+    #sports-buttons-5 .gamebutton-content, #sports-buttons-4 .gamebutton-content, #sports-buttons-3 .gamebutton-content {padding: 0.2em 3.5em 0.2em 0.5em !important;}
+    #sports-buttons-5 .gamebutton, #sports-buttons-5 .gamebutton-content {height: 58px !important; background-size: 132% !important;}
+    #sports-buttons-5 .gamebutton h2, #sports-buttons-4 .gamebutton h2, #sports-buttons-3 .gamebutton h2 {font-size: 16px !important; font-weight: 700 !important; line-height: 15px !important; margin-bottom: 3px;}
+    #sports-buttons-5 .gamebutton p, #sports-buttons-4 .gamebutton p, #sports-buttons-3 .gamebutton  {color: #8e8d8d; font-size: 9px !important; line-height: 9px !important;}
+    #sports-buttons-5 .gamebutton button, #sports-buttons-4 .gamebutton button, #sports-buttons-3 .gamebutton button {display: none !important;}
+
+    #sports-buttons-4 .gamebutton, #sports-buttons-4 .gamebutton-content, #sports-buttons-3 .gamebutton, #sports-buttons-3 .gamebutton-content {height: 68px !important; background-size: 156% !important;}
+
+    #sports-buttons-2 .gamebutton, #sports-buttons-1 .gamebutton {width: 98% !important; display: inline-block !important; background-size: cover;}
+    #sports-buttons-2 .gamebutton-content, #sports-buttons-1 .gamebutton-content {padding: 0.5em 5em 0.5em 0.8em !important;}
+    #sports-buttons-2 .gamebutton, #sports-buttons-2 .gamebutton-content {height: 80px !important;}
+    #sports-buttons-2 .gamebutton h2, #sports-buttons-1 .gamebutton h2 {font-size: 18px !important;}
+    #sports-buttons-2 .gamebutton p {font-size: 10px !important; line-height: 12px !important;}
+    #sports-buttons-2 .gamebutton button {width: 112px !important; margin-top: 4px !important; font-size: 11px !important;}
+
+    #sports-buttons-1 .gamebutton, #sports-buttons-1 .gamebutton-content {height: 114px !important;}
+    #sports-buttons-1 .gamebutton p {font-size: 13px !important; line-height: 15px !important;}
+    #sports-buttons-1 .gamebutton button {width: 112px !important; margin-top: 6px !important;}
+
+    #livecasino-buttons-5 .gamebutton, #livecasino-buttons-5 .gamebutton-content {height: 58px !important; background-size: 94% !important; background-position: 33px 0 !important;}
+    #livecasino-buttons-4 .gamebutton, #livecasino-buttons-4 .gamebutton-content {height: 68px !important; background-size: 105% !important; background-position: 24px 0; !important}
+    #livecasino-buttons-3 .gamebutton, #livecasino-buttons-3 .gamebutton-content {height: 58px !important; background-size: 50% !important;}
+    #livecasino-buttons-3 .gamebutton-content {padding: 0.5em 6.5em 0.5em 0.7em;}
+    #livecasino-buttons-2 .gamebutton, #livecasino-buttons-2 .gamebutton-content {height: 98px !important; background-size: 70% !important;}
+    #livecasino-buttons-1 .gamebutton, #livecasino-buttons-1 .gamebutton-content {height: 114px !important; background-size: 100%;}
+
+    #slots-buttons-5 .gamebutton, #slots-buttons-5 .gamebutton-content {height: 58px !important; background-size: 123% !important; background-position: -27px 0 !important;}
+    #slots-buttons-4 .gamebutton, #slots-buttons-4 .gamebutton-content {height: 68px !important; background-size: 143% !important; background-position: -44px 0; !important}
+    #slots-buttons-3 .gamebutton, #slots-buttons-3 .gamebutton-content {height: 58px !important; background-size: 76% !important;}
+    #slots-buttons-2 .gamebutton, #slots-buttons-2 .gamebutton-content {height: 78px !important; background-size: 60% !important;}
+    #slots-buttons-1 .gamebutton, #slots-buttons-1 .gamebutton-content {height: 114px !important;}
+
+    .poker-buttons .gamebutton, .poker-buttons .gamebutton-content {height: 78px !important; padding: 0 3em 0 0.5em !important; background-size: 63% !important;}
+    .poker-buttons .gamebutton p {line-height: 12px; font-size: 11px;}
+    .poker-buttons .gamebutton button {margin-top: 4px;}
+    .poker-buttons .gamebutton h2 {font-size: 17px;}
+    .poker-buttons .gamebutton button {width: 120px; font-size: 0.8em;}
+
+    ul.tabs {height: 35px !important;}
+    ul.tabs li {font-size: 10px;}
+
+    .container-promo-fixed {margin-top: 10px !important;}
+    .promo_group_body {margin-bottom: 10px;}
+
+    #container {position:relative; width: 100%; min-height: 460px; overflow: hidden;}
+    #inner {position: relative; width: 100%;}
+    #home {position:absolute; width: 100%;}
+    #member-home {position:absolute; left:400px; width: 100%;}
+
+    .login-container {margin: 16% auto 0 auto !important;}
+
+    /*.slide-account .slide-menu-header, #slide-signup .slide-menu-header, #slide-forgot .slide-menu-header*/
+    .slide-menu span {min-height: 40px; height: 40px;}
+    /*.slide-account .slide-bar {padding: 8px;}*/
+    .slide-account .slide-wallet-items {padding: 3px;}
+    .slide-account .wallet-item-box {padding: 7px 14px;}
+    .slide-account .wallet-item-box strong, .slide-account .wallet-item-box h2 {font-size: 12px; font-weight: 700; line-height: 12px;}
+    /*.slide-account .wallet-total {padding: 13px 14px;}*/
+
+    .slide-account .slide-wallet-cat {padding: 5px 5px; text-align: center;}
+    .slide-account .wallet-cat-item {height: 70px;}
+    .slide-account .wallet-cat-item i {width: 50px; height: 36px;}
+
+    .popup {margin: 1% auto 0 auto !important;}
+    #popup-notice {margin: 10% auto 0 auto !important;}
+    .safari-notice {margin: 1% auto 0 auto !important;}
+
+    .responsive-thumbnails li {height: 110px !important;}
+
+    .ngdialog-notice .ngdialog-content button {font-size: 12px;}
+}
+@media only screen and (max-width: 375px) and (orientation: portrait) {
+    .main-buttons .gamebutton {height: 110px; background-size: 110% !important;}
+    .main-buttons .gamebutton-content {}
+    .main-buttons .gamebutton h2 {font-size: 16px; margin-top: 59px;}
+    .main-buttons .gamebutton button {margin: 5px auto 0 auto; font-size: 0.9em;}
+
+    #sports-buttons-5 .gamebutton, #sports-buttons-5 .gamebutton-content {height: 74px; background-size: 144%;}
+    #sports-buttons-5 .gamebutton p {font-size: 11px; line-height: 11px;}
+
+    #sports-buttons-4 .gamebutton, #sports-buttons-4 .gamebutton-content {height: 105px; background-size: 206%;}
+    #sports-buttons-4 .gamebutton p {font-size: 12px; line-height: 14px;}
+
+    #sports-buttons-3 .gamebutton, #sports-buttons-3 .gamebutton-content {height: 98px; background-size: 195%;}
+    #sports-buttons-3 .gamebutton p {font-size: 12px; line-height: 13px;}
+
+    #sports-buttons-2 .gamebutton, #sports-buttons-2 .gamebutton-content {height: 97px;}
+    #sports-buttons-2 .gamebutton p {font-size: 13px; line-height: 16px;}
+    #sports-buttons-2 .gamebutton button {font-size: 13px;}
+
+    #sports-buttons-1 .gamebutton-content {padding: 0.5em 6em 0.5em 0.8em;}
+    #sports-buttons-1 .gamebutton, #sports-buttons-1 .gamebutton-content {height: 134px;}
+    #sports-buttons-1 .gamebutton h2 {font-size: 20px;}
+    #sports-buttons-1 .gamebutton p {font-size: 14px; line-height: 17px;}
+    #sports-buttons-1 .gamebutton button {width: 112px; margin-top: 6px;}
+
+    #livecasino-buttons-5 .gamebutton, #livecasino-buttons-5 .gamebutton-content {height: 72px; background-size: 94%; background-position: 48px 0;}
+    #livecasino-buttons-4 .gamebutton, #livecasino-buttons-4 .gamebutton-content {height: 88px; background-size: 101%; background-position: 40px 0;}
+    #livecasino-buttons-3 .gamebutton, #livecasino-buttons-3 .gamebutton-content {height: 72px; background-size: 50%;}
+    #livecasino-buttons-3 .gamebutton-content, #livecasino-buttons-2 .gamebutton-content {padding: 0.5em 10em 0.5em 0.7em;}
+    #livecasino-buttons-2 .gamebutton, #livecasino-buttons-2 .gamebutton-content {height: 108px; background-size: 70%; background-position: 125px 0;}
+    #livecasino-buttons-2 .gamebutton p {font-size: 12px; line-height: 14px; margin-top: 4px;}
+    #livecasino-buttons-1 .gamebutton, #livecasino-buttons-1 .gamebutton-content {height: 124px; background-size: 80%;}
+
+    #slots-buttons-5 .gamebutton, #slots-buttons-5 .gamebutton-content {height: 72px; background-size: 123%; background-position: -27px 0;}
+    #slots-buttons-4 .gamebutton, #slots-buttons-4 .gamebutton-content {height: 88px; background-size: 143%; background-position: -57px 0;}
+    #slots-buttons-3 .gamebutton, #slots-buttons-3 .gamebutton-content {height: 72px; background-size: 76%;}
+    #slots-buttons-2 .gamebutton, #slots-buttons-2 .gamebutton-content {height: 108px; background-size: 100%;}
+    #slots-buttons-1 .gamebutton, #slots-buttons-1 .gamebutton-content {height: 124px;}
+
+    .poker-buttons .gamebutton, .poker-buttons .gamebutton-content {height: 100px;}
+    .poker-buttons .gamebutton-content {padding: 0.5em 14em 0.5em 0.5em;}
+    .poker-buttons .gamebutton h2 {font-size: 18px;}
+    .poker-buttons .gamebutton p {font-size: 10px; line-height: 10px;}
+    .poker-buttons .gamebutton button {margin-top: 4px; font-size: 0.8em;}
+
+    .login-container {margin: 30% auto 0 auto;}
+
+    ul.tabs {height: 36px;}
+    ul.tabs li {padding: 10px 7px;}
+
+    .popup {margin: 5% auto 0 auto;}
+    #popup-notice {margin: 10% auto 0 auto;}
+
+    .promo-box h2 {}
+}
+@media only screen and (min-width: 400px) and (orientation: portrait) {
+    .main-buttons .gamebutton {width: 48.5%; height: 125px; background-size: 130% !important;}
+    .main-buttons .gamebutton-content {}
+    .main-buttons .gamebutton h2 {font-size: 18px; margin-top: 71px;}
+    .main-buttons .gamebutton button {margin: 5px auto 0 auto; font-size: 0.9em;}
+
+    .slot-buttons .gamebutton, .slot-buttons .gamebutton-content {height: 100px;}
+    .slot-buttons .gamebutton h2, .slot-buttons .gamebutton strong {font-size: 18px;}
+    .slot-buttons .gamebutton button {margin-top: 6px;}
+
+    .popup {margin: 10% auto 0 auto;}
+    #popup-notice {margin: 16% auto 0 auto;}
+    .safari-notice {margin: 20% auto 0 auto !important;}
+
+    .responsive-thumbnails li {height: 110px !important;}
+
+    #sports-buttons-5 .gamebutton, #sports-buttons-5 .gamebutton-content {height: 88px; background-size: 155%;}
+    #sports-buttons-5 .gamebutton-content {padding: 0.2em 4.5em 0.2em 0.5em;}
+    #sports-buttons-5 .gamebutton p {font-size: 12px; line-height: 13px;}
+
+    #sports-buttons-4 .gamebutton, #sports-buttons-4 .gamebutton-content {height: 120px; background-size: 211%;}
+    #sports-buttons-4 .gamebutton-content {padding: 0.2em 5.5em 0.2em 0.6em;}
+    #sports-buttons-4 .gamebutton h2 {font-size: 20px; line-height: 22px;}
+    #sports-buttons-4 .gamebutton p {font-size: 13px; line-height: 15px;}
+
+    #sports-buttons-3 .gamebutton {width: 98%; display: inline-block;background-size: cover;}
+    #sports-buttons-3 .gamebutton-content {padding: 0.5em 5em 0.5em 0.8em;}
+    #sports-buttons-3 .gamebutton, #sports-buttons-3 .gamebutton-content {height: 86px; background-size: 76%;}
+    #sports-buttons-3 .gamebutton h2 {font-size: 18px;}
+    #sports-buttons-3 .gamebutton p {font-size: 12px; line-height: 16px;}
+    #sports-buttons-3 .gamebutton button {display: block; width: 112px; margin-top: 4px; font-size: 12px;}
+
+    #sports-buttons-2 .gamebutton, #sports-buttons-2 .gamebutton-content {height: 112px;}
+    #sports-buttons-2 .gamebutton-content {padding: 0.5em 10em 0.5em 0.8em;}
+    #sports-buttons-2 .gamebutton h2 {font-size: 20px;}
+    #sports-buttons-2 .gamebutton p {font-size: 14px; line-height: 17px;}
+    #sports-buttons-2 .gamebutton button {font-size: 13px;}
+
+    #sports-buttons-1 .gamebutton-content {padding: 0.5em 6em 0.5em 0.8em;}
+    #sports-buttons-1 .gamebutton, #sports-buttons-1 .gamebutton-content {height: 134px;}
+    #sports-buttons-1 .gamebutton h2 {font-size: 20px;}
+    #sports-buttons-1 .gamebutton p {font-size: 14px; line-height: 17px;}
+    #sports-buttons-1 .gamebutton button {width: 112px; margin-top: 6px;}
+
+    #livecasino-buttons-5 .gamebutton, #livecasino-buttons-5 .gamebutton-content {height: 78px; background-size: 94%; background-position: 48px 0;}
+    #livecasino-buttons-4 .gamebutton, #livecasino-buttons-4 .gamebutton-content {height: 107px; background-size: 101%; background-position: 40px 0;}
+    #livecasino-buttons-3 .gamebutton, #livecasino-buttons-3 .gamebutton-content {height: 88px; background-size: 50%;}
+    #livecasino-buttons-3 .gamebutton-content, #livecasino-buttons-2 .gamebutton-content {padding: 0.5em 10em 0.5em 0.7em;}
+    #livecasino-buttons-3 .gamebutton button {display: block;}
+    #livecasino-buttons-2 .gamebutton, #livecasino-buttons-2 .gamebutton-content {height: 116px; background-size: 70%; background-position: 125px 0;}
+    #livecasino-buttons-2 .gamebutton p {font-size: 12px; line-height: 14px; margin-top: 4px;}
+    #livecasino-buttons-1 .gamebutton, #livecasino-buttons-1 .gamebutton-content {height: 135px; background-size: 80%;}
+
+    #slots-buttons-5 .gamebutton, #slots-buttons-5 .gamebutton-content {height: 78px; background-size: 130%; background-position: -45px 0;}
+    #slots-buttons-4 .gamebutton, #slots-buttons-4 .gamebutton-content {height: 107px; background-size: 155%; background-position: -78px 0;}
+    #slots-buttons-4 .gamebutton h2 {font-size: 16px; font-weight: 700; line-height: 18px;}
+    #slots-buttons-4 .gamebutton button {display: block;}
+    #slots-buttons-3 .gamebutton, #slots-buttons-3 .gamebutton-content {height: 88px; background-size: 76%;}
+    #slots-buttons-3 .gamebutton-content {padding: 0.2em 3.5em 0.2em 0.9em;}
+    #slots-buttons-3 .gamebutton button {display: block;}
+    #slots-buttons-2 .gamebutton, #slots-buttons-2 .gamebutton-content {height: 116px; background-size: 100%;}
+    #slots-buttons-2 .gamebutton button {display: block;}
+    #slots-buttons-1 .gamebutton, #slots-buttons-1 .gamebutton-content {height: 135px;}
+
+    .poker-buttons .gamebutton-content {padding: 1em 12em 1em 1em;}
+}
+
+@media only screen and (min-width: 768px) and (orientation: portrait) {
+    .nav ul#nav-list {text-align: center;}
+    .nav ul li.nav-tab {width: 14%;}
+
+    .main-buttons .gamebutton {width: 49.2%; height: 165px; margin: 0.2em; background-size: 104% !important;}
+    .main-buttons .gamebutton h2 {font-size: 24px; margin-top: 100px;}
+    .main-buttons .gamebutton button {margin: 5px auto 0 auto; font-size: 16px;}
+
+    .promo-item {margin-bottom: 5px;}
+    .promo-box h2 {font-size: 16px; line-height: 18px;}
+    .promo-box p {font-size: 13px; line-height: 14px;}
+    .icon-promo {height: 44px;}
+
+    .sports-buttons .gamebutton {width: 49.2% !important; margin: 0.2em;}
+    .sports-buttons .gamebutton-content {padding: 0.2em 6.5em 0.2em 0.8em !important;}
+    .sports-buttons .gamebutton h2 {font-size: 20px  !important; line-height: 20px !important;}
+    .sports-buttons .gamebutton p {font-size: 14px !important; line-height: 17px !important;}
+
+    #sports-buttons-5 .gamebutton, #sports-buttons-5 .gamebutton-content {height: 118px; background-size: 108%;}
+    #sports-buttons-5 .gamebutton button, #sports-buttons-4 .gamebutton button {display: block; margin: 5px 0 0 0;}
+
+    #sports-buttons-4 .gamebutton, #sports-buttons-4 .gamebutton-content {height: 165px; background-size: 155%; background-position: -163px 0;}
+
+    #sports-buttons-3 .gamebutton {width: 99% !important;}
+    #sports-buttons-3 .gamebutton, #sports-buttons-3 .gamebutton-content {height: 125px; background-size: 64%; background-position: top right;}
+    #sports-buttons-3 .gamebutton h2 {font-size: 22px !important; line-height: 24px !important;}
+    #sports-buttons-3 .gamebutton p {font-size: 16px !important; line-height: 22px !important;}
+    #sports-buttons-3 .gamebutton button {margin-top: 5px; font-size: 14px;}
+
+    #sports-buttons-2 .gamebutton {width: 99% !important;}
+    #sports-buttons-2 .gamebutton, #sports-buttons-2 .gamebutton-content {height: 125px; background-size: 64%; background-position: top right;}
+    #sports-buttons-2 .gamebutton h2 {font-size: 22px !important; line-height: 24px !important;}
+    #sports-buttons-2 .gamebutton p {font-size: 16px !important; line-height: 22px !important;}
+    #sports-buttons-2 .gamebutton button {margin-top: 5px; font-size: 14px;}
+
+    #sports-buttons-1 .gamebutton {width: 99% !important;}
+    #sports-buttons-1 .gamebutton, #sports-buttons-1 .gamebutton-content {height: 125px; background-size: 64%; background-position: top right;}
+    #sports-buttons-1 .gamebutton h2 {font-size: 22px !important; line-height: 24px !important;}
+    #sports-buttons-1 .gamebutton p {font-size: 16px !important; line-height: 22px !important;}
+    #sports-buttons-1 .gamebutton button {margin-top: 5px; font-size: 14px;}
+
+    .livecasino-buttons .gamebutton {width: 49.2% !important; margin: 0.2em;}
+    .livecasino-buttons .gamebutton-content {padding: 0.2em 6.5em 0.2em 0.8em !important;}
+    .livecasino-buttons .gamebutton h2 {font-size: 20px  !important; line-height: 20px !important;}
+    .livecasino-buttons .gamebutton p {font-size: 14px !important; line-height: 17px !important; display: block !important;}
+    .livecasino-buttons .gamebutton button {width: auto !important; padding: 0 10px !important;}
+
+    #livecasino-buttons-5 .gamebutton, #livecasino-buttons-5 .gamebutton-content {height: 118px; background-size: 108%;}
+    #livecasino-buttons-5 .gamebutton button, #livecasino-buttons-4 .gamebutton button {display: block; margin: 5px 0 0 0;}
+    #livecasino-buttons-4 .gamebutton, #sports-buttons-4 .gamebutton-content {height: 165px; background-size: 155%; background-position: -163px 0;}
+
+    #livecasino-buttons-3 .gamebutton {width: 99% !important;}
+    #livecasino-buttons-3 .gamebutton, #livecasino-buttons-3 .gamebutton-content {height: 125px; background-size: 50%; background-position: top right;}
+    #livecasino-buttons-3 .gamebutton h2 {font-size: 22px !important; line-height: 24px !important;}
+    #livecasino-buttons-3 .gamebutton p {font-size: 16px !important; line-height: 22px !important;}
+    #livecasino-buttons-3 .gamebutton button {margin-top: 5px; font-size: 14px;}
+
+    #livecasino-buttons-2 .gamebutton {width: 99% !important;}
+    #livecasino-buttons-2 .gamebutton, #livecasino-buttons-2 .gamebutton-content {height: 125px; background-size: 50%; background-position: top right;}
+    #livecasino-buttons-2 .gamebutton h2 {font-size: 22px !important; line-height: 24px !important;}
+    #livecasino-buttons-2 .gamebutton p {font-size: 16px !important; line-height: 22px !important;}
+    #livecasino-buttons-2 .gamebutton button {margin-top: 5px; font-size: 14px;}
+
+    #livecasino-buttons-1 .gamebutton {width: 99% !important;}
+    #livecasino-buttons-1 .gamebutton, #sports-buttons-1 .gamebutton-content {height: 125px; background-size: 50%; background-position: top right;}
+    #livecasino-buttons-1 .gamebutton h2 {font-size: 22px !important; line-height: 24px !important;}
+    #livecasino-buttons-1 .gamebutton p {font-size: 16px !important; line-height: 22px !important;}
+    #livecasino-buttons-1 .gamebutton button {margin-top: 5px; font-size: 14px;}
+
+    .slot-buttons .gamebutton {width: 49.2% !important; margin: 0.2em;}
+    .slot-buttons .gamebutton-content {padding: 0.2em 6.5em 0.2em 0.8em !important;}
+    .slot-buttons .gamebutton h2 {font-size: 20px  !important; line-height: 20px !important;}
+    .slot-buttons .gamebutton p {font-size: 14px !important; line-height: 17px !important; display: block !important;}
+    .slot-buttons .gamebutton button {width: auto !important; padding: 0 10px !important;}
+
+    #slots-buttons-5 .gamebutton, #slots-buttons-5 .gamebutton-content {height: 118px; background-size: 108%; background-position: top right;}
+    #slots-buttons-5 .gamebutton button, #slots-buttons-4 .gamebutton button {display: block; margin: 5px 0 0 0;}
+    #slots-buttons-4 .gamebutton, #slots-buttons-4 .gamebutton-content {height: 165px; background-size: 155%; background-position: -163px 0;}
+
+    #slots-buttons-3 .gamebutton {width: 99% !important;}
+    #slots-buttons-3 .gamebutton, #slots-buttons-3 .gamebutton-content {height: 125px; background-size: 50%; background-position: top right;}
+    #slots-buttons-3 .gamebutton h2 {font-size: 22px !important; line-height: 24px !important;}
+    #slots-buttons-3 .gamebutton p {font-size: 16px !important; line-height: 22px !important;}
+    #slots-buttons-3 .gamebutton button {margin-top: 5px; font-size: 14px;}
+
+    #slots-buttons-2 .gamebutton {width: 99% !important;}
+    #slots-buttons-2 .gamebutton, #slots-buttons-2 .gamebutton-content {height: 125px; background-size: 50%; background-position: top right;}
+    #slots-buttons-2 .gamebutton h2 {font-size: 22px !important; line-height: 24px !important;}
+    #slots-buttons-2 .gamebutton p {font-size: 16px !important; line-height: 22px !important;}
+    #slots-buttons-2 .gamebutton button {margin-top: 5px; font-size: 14px;}
+
+    #slots-buttons-1 .gamebutton {width: 99% !important;}
+    #slots-buttons-1 .gamebutton, #slots-buttons-1 .gamebutton-content {height: 125px; background-size: 50%; background-position: top right;}
+    #slots-buttons-1 .gamebutton h2 {font-size: 22px !important; line-height: 24px !important;}
+    #slots-buttons-1 .gamebutton p {font-size: 16px !important; line-height: 22px !important;}
+    #slots-buttons-1 .gamebutton button {margin-top: 5px; font-size: 14px;}
+
+    .promo-img {width: 30%; background-size: 65% !important;}
+    .promo-item-desc {width: 70%;}
+
+    .btn-amounts button.btn {width: 20.1%;}
+}
+
+/*-------------------- LANDSCAPE ------------------------*/
+@media only screen and (max-height: 320px) and (orientation: landscape) {
+    .main-buttons {width: 100%; padding: 0 0 60px 0; margin: 10px auto 0 0; position: relative; top: 0; left: 0; bottom: 0;}
+    .main-buttons .gamebutton {width: 48.7%; background-position: 80px 0; background-size: 80% !important;}
+    .main-buttons .gamebutton, .main-buttons .gamebutton-content {height: 75px;}
+    .main-buttons .gamebutton-content {border-radius: 6px; display: table-cell; vertical-align: middle; text-align: left; padding-left: 10px;
+        background: -moz-linear-gradient(left,  rgba(0,0,0,0.6) 0%, transparent 100%);
+        background: -webkit-gradient(linear, left top, right top, color-stop(0%,rgba(0,0,0,0.6)), color-stop(100%,transparent));
+        background: -webkit-linear-gradient(left,  rgba(0,0,0,0.6) 0%,transparent 100%);
+        background: -o-linear-gradient(left,  rgba(0,0,0,0.6) 0%,transparent 100%);
+        background: -ms-linear-gradient(left,  rgba(0,0,0,0.6) 0%,transparent 100%);
+        background: linear-gradient(to right,  rgba(0,0,0,0.6) 0%,transparent 100%);
+    }
+    .main-buttons .gamebutton h2 {margin: 0; text-align: left;}
+    .main-buttons .gamebutton button {width: 95px; font-size: 0.7em;}
+    .main-buttons .gamebutton p {font-size: 11px; line-height: 12px;}
+
+    .sports-buttons .gamebuttons {width: 340px;}
+    #sports-buttons-5 .gamebutton, #sports-buttons-5 .gamebutton-content {height: 45px; background-size: 100%; background-position: 0;}
+    #sports-buttons-5 .gamebutton p {display: none;}
+    #sports-buttons-4 .gamebutton, #sports-buttons-4 .gamebutton-content {height: 58px; background-size: 119%; background-position: center right;}
+    #sports-buttons-3 .gamebutton, #sports-buttons-3 .gamebutton-content {height: 45px; background-size: 46%;}
+    #sports-buttons-2 .gamebutton, #sports-buttons-2 .gamebutton-content {height: 55px; background-size: 56%;}
+    #sports-buttons-2 .gamebutton button {display: none;}
+    #sports-buttons-1 .gamebutton, #sports-buttons-1 .gamebutton-content {height: 96px; background-size: 100%;}
+
+    .livecasino-buttons .gamebuttons {width: 340px;}
+    #livecasino-buttons-5 .gamebutton, #livecasino-buttons-5 .gamebutton-content {height: 45px; background-size: 74%; background-position: 62px 0;}
+    #livecasino-buttons-4 .gamebutton, #livecasino-buttons-4 .gamebutton-content {height: 50px; background-size: 74%; background-position: 62px 0;}
+    #livecasino-buttons-3 .gamebutton, #livecasino-buttons-3 .gamebutton-content {height: 45px; background-size: 39%;}
+    #livecasino-buttons-2 .gamebutton, #livecasino-buttons-2 .gamebutton-content {height: 55px; background-size: 50%;}
+    #livecasino-buttons-2 .gamebutton button {display: none;}
+    #livecasino-buttons-1 .gamebutton, #livecasino-buttons-1 .gamebutton-content {height: 96px; background-size: 80%;}
+
+    .slot-buttons .gamebuttons {width: 340px;}
+    #slots-buttons-5 .gamebutton, #slots-buttons-5 .gamebutton-content {height: 45px; background-size: 110%; background-position: -6px 0;}
+    #slots-buttons-3 .gamebutton, #slots-buttons-3 .gamebutton-content {height: 45px; background-size: 76%;}
+    #slots-buttons-2 .gamebutton, #slots-buttons-2 .gamebutton-content {height: 55px; background-size: 100%;}
+    #slots-buttons-1 .gamebutton, #slots-buttons-1 .gamebutton-content {height: 76px;}
+
+    .poker-buttons {width: 100%; padding: 0; margin: 4px 0 0 0; display: table; /*height: 100%;*/ position: relative; top: 0; left: 0;}
+    .poker-buttons .gamebutton-wrapper {padding: 0; vertical-align: middle; display: table-cell; margin: 0;}
+    .poker-buttons .gamebuttons {width: 280px; float: right; margin-right: 10px;}
+
+    .poker-buttons .gamebutton, .poker-buttons .gamebutton-content {height: 69px; background-size: 60%;}
+    .poker-buttons .gamebutton button {margin-top: 4px; font-size: 0.8em;}
+    .poker-buttons .gamebutton h2 {font-size: 18px;}
+    .poker-buttons .gamebutton-content p {display: none;}
+
+    .btn-amounts button.btn {width: 20.15%;}
+    .promo-box h2 {font-size: 14px; font-weight: 700; line-height: 14px; margin-bottom: 0;}
+    .promo-box p {font-size: 11px; color: #989898; line-height: 12px;}
+    .promo-item button {margin: 0 2px 0 10px; height: 27px;}
+
+    .icon-promo {width: 30px; height: 30px;}
+
+    #container {position:relative; width: 100%; min-height: 580px; overflow: hidden;}
+    #inner {position: relative; width: 100%;}
+    #home {position:absolute; width: 100%;}
+    #member-home {position:absolute; left: 600px; width: 100%;}
+}
+@media only screen and (max-height: 374px) and (orientation: landscape) {
+    .livecasino-buttons, .sports-buttons {position: relative; margin: 10px 0 0 0; bottom: auto;}
+    .promo-item button {margin: 0 2px 0 10px; height: 27px;}
+}
+@media only screen and (min-height: 360px) and (orientation: landscape) {
+    .main-buttons {width: 100%; padding: 0; margin: 10px auto 60px 0 !important; position: relative; top: 0; left: 0; bottom: 0;}
+    .main-buttons .gamebutton {width: 48.9%; background-position: 80px 0; background-size: 80% !important;}
+    .main-buttons .gamebutton, .main-buttons .gamebutton-content {height: 79px;}
+    .main-buttons .gamebutton-content {border-radius: 6px; display: table-cell; vertical-align: middle; text-align: left; padding-left: 10px;
+        background: -moz-linear-gradient(left,  rgba(0,0,0,0.6) 0%, transparent 100%);
+        background: -webkit-gradient(linear, left top, right top, color-stop(0%,rgba(0,0,0,0.6)), color-stop(100%,transparent));
+        background: -webkit-linear-gradient(left,  rgba(0,0,0,0.6) 0%,transparent 100%);
+        background: -o-linear-gradient(left,  rgba(0,0,0,0.6) 0%,transparent 100%);
+        background: -ms-linear-gradient(left,  rgba(0,0,0,0.6) 0%,transparent 100%);
+        background: linear-gradient(to right,  rgba(0,0,0,0.6) 0%,transparent 100%);
+    }
+    .main-buttons .gamebutton h2 {line-height: 20px; margin: 0; text-align: left;}
+
+    .sports-buttons .gamebuttons {width: 340px;}
+    #sports-buttons-5 .gamebutton, #sports-buttons-5 .gamebutton-content {height: 45px; background-size: 100%; background-position: 0;}
+    #sports-buttons-4 .gamebutton, #sports-buttons-4 .gamebutton-content {height: 58px; background-size: 119%; background-position: center right;}
+    #sports-buttons-3 .gamebutton, #sports-buttons-3 .gamebutton-content {height: 45px; background-size: 46%;}
+    #sports-buttons-2 .gamebutton, #sports-buttons-2 .gamebutton-content {height: 55px; background-size: 56%;}
+    #sports-buttons-2 .gamebutton button {display: none;}
+    #sports-buttons-1 .gamebutton, #sports-buttons-1 .gamebutton-content {height: 96px; background-size: 100%;}
+
+    .livecasino-buttons .gamebuttons {width: 340px;}
+    #livecasino-buttons-5 .gamebutton, #livecasino-buttons-5 .gamebutton-content {height: 45px; background-size: 74%; background-position: 62px 0;}
+    #livecasino-buttons-4 .gamebutton, #livecasino-buttons-4 .gamebutton-content {height: 55px; background-size: 74%; background-position: 62px 0;}
+    #livecasino-buttons-3 .gamebutton, #livecasino-buttons-3 .gamebutton-content {height: 45px; background-size: 39%;}
+    #livecasino-buttons-2 .gamebutton, #livecasino-buttons-2 .gamebutton-content {height: 60px; background-size: 50%;}
+    #livecasino-buttons-2 .gamebutton p, #livecasino-buttons-1 .gamebutton p {margin-top: 2px;}
+    #livecasino-buttons-2 .gamebutton button {display: none;}
+    #livecasino-buttons-1 .gamebutton, #livecasino-buttons-1 .gamebutton-content {height: 96px; background-size: 80%;}
+
+    .slot-buttons .gamebuttons {width: 340px;}
+    #slots-buttons-5 .gamebutton, #slots-buttons-5 .gamebutton-content {height: 48px;}
+    #slots-buttons-3 .gamebutton, #slots-buttons-3 .gamebutton-content {height: 50px; background-size: 68%;}
+    #slots-buttons-2 .gamebutton, #slots-buttons-2 .gamebutton-content {height: 68px; background-size: 100%;}
+    #slots-buttons-1 .gamebutton, #slots-buttons-1 .gamebutton-content {height: 90px;}
+
+    /*.poker-buttons {width: 100%; padding: 0; margin: 0; display: table; height: 100%; position: absolute; top: 0; left: 0;}*/
+    .poker-buttons .gamebutton-wrapper {padding: 0; vertical-align: middle; display: table-cell; margin: 0;}
+    .poker-buttons .gamebuttons {width: 320px; float: right; margin-right: 10px;}
+    .poker-buttons .gamebutton, .poker-buttons .gamebutton-content {height: 88px; background-size: 60%;}
+    .poker-buttons .gamebutton-content {padding: 0.5em 7em 0.5em 1em;}
+    .poker-buttons .gamebutton-content p {display: block; font-size: 11px;}
+    .poker-buttons .gamebutton button {margin-top: 4px; font-size: 0.8em;}
+    .poker-buttons .gamebutton h2 {font-size: 16px;}
+
+    .btn-amounts button.btn {width: 20.2%;}
+    .promo-box h2 {font-size: 14px; font-weight: 700; line-height: 16px; margin-bottom: 0;}
+    .promo-box p {font-size: 11px; color: #989898; line-height: 12px;}
+    .promo-item button {margin: 0 2px 0 10px; height: 27px;}
+
+    .icon-promo {width: 30px; height: 30px; margin-right: 18px;}
+
+    .responsive-thumbnails li {height: 110px !important;}
+}
+@media only screen and (min-height: 400px) and (orientation: landscape) {
+    .bg-slot {background-position: -175px 16px;}
+
+    .main-buttons {width: 100%; margin: 10px auto 0 0; padding: 0 0 60px 0; position: relative; top: 0; left: 0;}
+    .main-buttons .gamebutton {width: 48.9%;}
+    .main-buttons .gamebutton, .main-buttons .gamebutton-content {height: 85px;}
+
+    .slot-buttons .gamebuttons {width: 360px;}
+    #slots-buttons-5 .gamebutton, #slots-buttons-5 .gamebutton-content {height: 55px;}
+    #slots-buttons-4 .gamebutton, #slots-buttons-4 .gamebutton-content {height: 75px; background-size: 133%; background-position: -48px 0;}
+    #slots-buttons-3 .gamebutton, #slots-buttons-3 .gamebutton-content {height: 54px; background-size: 68%;}
+    #slots-buttons-2 .gamebutton, #slots-buttons-2 .gamebutton-content {height: 74px; background-size: 100%;}
+    #slots-buttons-1 .gamebutton, #slots-buttons-1 .gamebutton-content {height: 115px;}
+
+    .promo-item-desc h2 {font-size: 18px;}
+    .promo-item-desc p {font-size: 15px;}
+    .promo-img {background-size: 69%;}
+
+    .poker-buttons .gamebutton-content p {display: none;}
+}
+@media only screen and (min-width: 768px) and (orientation: landscape) {
+    .nav ul#nav-list {text-align: center;}
+    .nav ul li.nav-tab {width: 14%;}
+
+    .main-buttons {position: absolute !important; bottom: 60px !important; margin: auto !important; padding: 0 !important; top: auto !important;}
+    .main-buttons .gamebutton, .main-buttons .gamebutton-content {height: 150px !important;}
+    .main-buttons .gamebutton {width: 49.4%; height: 155px; margin: 0.2em; background-size: 86% !important; background-position: 140px 0;}
+    .main-buttons .gamebutton h2 {font-size: 24px;}
+    .main-buttons .gamebutton button {margin: 12px auto 0 auto; font-size: 16px;}
+
+    .promo-item {margin-bottom: 5px;}
+    .promo-box h2 {font-size: 16px; line-height: 18px;}
+    .promo-box p {font-size: 13px; line-height: 14px;}
+    .icon-promo {height: 44px;}
+
+    .bg-sports {background-position: -38px 0;}
+    .sports-buttons .gamebuttons {width: 430px;}
+    .sports-buttons .gamebutton {width: 98% !important; margin: 0.2em;}
+    .sports-buttons .gamebutton-content {padding: 0.2em 6.5em 0.2em 0.8em !important;}
+    .sports-buttons .gamebutton h2 {font-size: 20px  !important; line-height: 20px !important;}
+    .sports-buttons .gamebutton p {font-size: 14px !important; line-height: 17px !important; display: block !important;}
+    .sports-buttons .gamebutton button {width: auto !important; padding: 0 10px !important;}
+
+    #sports-buttons-5 .gamebutton, #sports-buttons-5 .gamebutton-content {height: 90px; background-size: 72%; background-position: top right;}
+    #sports-buttons-5 .gamebutton button, #sports-buttons-4 .gamebutton button {display: block; margin: 5px 0 0 0;}
+    #sports-buttons-4 .gamebutton, #sports-buttons-4 .gamebutton-content {height: 114px; background-size: 100%; background-position: top right;}
+
+    #sports-buttons-3 .gamebutton {width: 99% !important;}
+    #sports-buttons-3 .gamebutton, #sports-buttons-3 .gamebutton-content {height: 125px; background-size: 100%; background-position: top right;}
+    #sports-buttons-3 .gamebutton h2 {font-size: 22px !important; line-height: 24px !important;}
+    #sports-buttons-3 .gamebutton p {font-size: 16px !important; line-height: 22px !important;}
+    #sports-buttons-3 .gamebutton button {margin-top: 5px; font-size: 14px; display: block;}
+
+    #sports-buttons-2 .gamebutton {width: 99% !important;}
+    #sports-buttons-2 .gamebutton, #sports-buttons-2 .gamebutton-content {height: 125px; background-size: 100%; background-position: top right;}
+    #sports-buttons-2 .gamebutton h2 {font-size: 22px !important; line-height: 24px !important;}
+    #sports-buttons-2 .gamebutton p {font-size: 16px !important; line-height: 22px !important;}
+    #sports-buttons-2 .gamebutton button {margin-top: 5px; font-size: 14px;}
+
+    #sports-buttons-1 .gamebutton {width: 99% !important;}
+    #sports-buttons-1 .gamebutton, #sports-buttons-1 .gamebutton-content {height: 125px; background-size: 100%; background-position: top right;}
+    #sports-buttons-1 .gamebutton h2 {font-size: 22px !important; line-height: 24px !important;}
+    #sports-buttons-1 .gamebutton p {font-size: 16px !important; line-height: 22px !important;}
+    #sports-buttons-1 .gamebutton button {margin-top: 5px; font-size: 14px;}
+
+    .bg-casino {background-position: -380px 39px; background-color: #471521; background-size: 140%;}
+    .livecasino-buttons .gamebuttons {width: 430px;}
+    .livecasino-buttons .gamebutton {width: 49.2% !important; margin: 0.2em;}
+    .livecasino-buttons .gamebutton-content {padding: 0.2em 6.5em 0.2em 0.8em !important;}
+    .livecasino-buttons .gamebutton h2 {font-size: 20px  !important; line-height: 20px !important;}
+    .livecasino-buttons .gamebutton p {font-size: 14px !important; line-height: 17px !important; display: block !important;}
+    .livecasino-buttons .gamebutton button {width: auto !important; padding: 0 10px !important;}
+
+    #livecasino-buttons-5 .gamebutton, #livecasino-buttons-5 .gamebutton-content {height: 118px; background-size: 108%;}
+    #livecasino-buttons-5 .gamebutton button, #livecasino-buttons-4 .gamebutton button {display: block; margin: 5px 0 0 0;}
+    #livecasino-buttons-4 .gamebutton, #livecasino-buttons-4 .gamebutton-content {height: 165px; background-size: 155%; background-position: -163px 0;}
+
+    #livecasino-buttons-3 .gamebutton {width: 99% !important;}
+    #livecasino-buttons-3 .gamebutton, #livecasino-buttons-3 .gamebutton-content {height: 125px; background-size: 50%; background-position: top right;}
+    #livecasino-buttons-3 .gamebutton h2 {font-size: 22px !important; line-height: 24px !important;}
+    #livecasino-buttons-3 .gamebutton p {font-size: 16px !important; line-height: 22px !important;}
+    #livecasino-buttons-3 .gamebutton button {margin-top: 5px; font-size: 14px;}
+
+    #livecasino-buttons-2 .gamebutton {width: 99% !important;}
+    #livecasino-buttons-2 .gamebutton, #livecasino-buttons-2 .gamebutton-content {height: 125px; background-size: 50%; background-position: top right;}
+    #livecasino-buttons-2 .gamebutton h2 {font-size: 22px !important; line-height: 24px !important;}
+    #livecasino-buttons-2 .gamebutton p {font-size: 16px !important; line-height: 22px !important;}
+    #livecasino-buttons-2 .gamebutton button {margin-top: 5px; font-size: 14px;}
+
+    #livecasino-buttons-1 .gamebutton {width: 99% !important;}
+    #livecasino-buttons-1 .gamebutton, #sports-buttons-1 .gamebutton-content {height: 125px; background-size: 50%; background-position: top right;}
+    #livecasino-buttons-1 .gamebutton h2 {font-size: 22px !important; line-height: 24px !important;}
+    #livecasino-buttons-1 .gamebutton p {font-size: 16px !important; line-height: 22px !important;}
+    #livecasino-buttons-1 .gamebutton button {margin-top: 5px; font-size: 14px;}
+
+    .bg-slot {background-position: -305px 16px; background-size: 141%;}
+    /*.livecasino-buttons, .slot-buttons {width: 100%; padding: 0; margin: 0; display: table; height: 100%; position: absolute; top: 0; left: 0;}*/
+    .slot-buttons .gamebuttons {width: 430px;}
+    .slot-buttons .gamebutton {width: 98% !important; margin: 0.2em;}
+    .slot-buttons .gamebutton-content {padding: 0.2em 6.5em 0.2em 0.8em !important;}
+    .slot-buttons .gamebutton h2 {font-size: 20px  !important; line-height: 20px !important;}
+    .slot-buttons .gamebutton p {font-size: 14px !important; line-height: 17px !important; display: block !important;}
+    .slot-buttons .gamebutton button {width: auto !important; padding: 0 10px !important;}
+
+    #slots-buttons-5 .gamebutton, #slots-buttons-5 .gamebutton-content {height: 90px; background-size: 108%; background-position: top right;}
+    #slots-buttons-5 .gamebutton button, #slots-buttons-4 .gamebutton button {display: block; margin: 5px 0 0 0;}
+    #slots-buttons-4 .gamebutton, #slots-buttons-4 .gamebutton-content {height: 114px; background-size: 100%; background-position: top right;}
+
+    #slots-buttons-3 .gamebutton {width: 99% !important;}
+    #slots-buttons-3 .gamebutton, #slots-buttons-3 .gamebutton-content {height: 125px; background-size: 100%; background-position: top right;}
+    #slots-buttons-3 .gamebutton h2 {font-size: 22px !important; line-height: 24px !important;}
+    #slots-buttons-3 .gamebutton p {font-size: 16px !important; line-height: 22px !important;}
+    #slots-buttons-3 .gamebutton button {margin-top: 5px; font-size: 14px; display: block;}
+
+    #slots-buttons-2 .gamebutton {width: 99% !important;}
+    #slots-buttons-2 .gamebutton, #slots-buttons-2 .gamebutton-content {height: 125px; background-size: 100%; background-position: top right;}
+    #slots-buttons-2 .gamebutton h2 {font-size: 22px !important; line-height: 24px !important;}
+    #slots-buttons-2 .gamebutton p {font-size: 16px !important; line-height: 22px !important;}
+    #slots-buttons-2 .gamebutton button {margin-top: 5px; font-size: 14px;}
+
+    #slots-buttons-1 .gamebutton {width: 99% !important;}
+    #slots-buttons-1 .gamebutton, #slots-buttons-1 .gamebutton-content {height: 125px; background-size: 100%; background-position: top right;}
+    #slots-buttons-1 .gamebutton h2 {font-size: 22px !important; line-height: 24px !important;}
+    #slots-buttons-1 .gamebutton p {font-size: 16px !important; line-height: 22px !important;}
+    #slots-buttons-1 .gamebutton button {margin-top: 5px; font-size: 14px;}
+
+    .poker-buttons .gamebuttons {width: 430px;}
+    .poker-buttons .slot-buttons .gamebutton {width: 98% !important; margin: 0.2em;}
+    .poker-buttons .slot-buttons .gamebutton-content {padding: 0.2em 6.5em 0.2em 0.8em !important;}
+    .poker-buttons .slot-buttons .gamebutton h2 {font-size: 20px  !important; line-height: 20px !important;}
+    .poker-buttons .slot-buttons .gamebutton p {font-size: 14px !important; line-height: 17px !important; display: block !important;}
+    .poker-buttons .slot-buttons .gamebutton button {width: auto !important; padding: 0 10px !important;}
+
+    .promo-img {width: 18%; background-size: 65% !important;}
+    .promo-item-desc {width: 82%;}
+
+    .btn-amounts button.btn {width: 20.08%;}
+}

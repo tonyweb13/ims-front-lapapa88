@@ -1,0 +1,8 @@
+@font-face {
+    font-family:'cwTeXFangSong';
+    font-style: normal;
+    font-weight: 500;
+    src:local('cwTeXFangSong'),
+    url('/common/fonts/cn/cwTeXFangSong-zhonly.woff') format('woff'),
+    url('/common/fonts/cn/cwTeXFangSong-zhonly.ttf') format('ttf');
+}

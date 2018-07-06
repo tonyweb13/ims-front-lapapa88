@@ -1,0 +1,31 @@
+@font-face {
+    font-family:'Nanum Gothic';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Nanum Gothic');
+    src: url('/common/fonts/kr/NanumGothic-Regular.eot');
+    src: url('/common/fonts/kr/NanumGothic-Regular.eot?#iefix') format('embedded-opentype'),
+    url('/common/fonts/kr/NanumGothic-Regular.woff') format('woff');
+}
+
+@font-face {
+    font-family:'Nanum Gothic';
+    font-style: normal;
+    font-weight: 700;
+    src: local('Nanum Gothic');
+    src: url('/common/fonts/kr/NanumGothic-Bold.eot');
+    src: url('/common/fonts/kr/NanumGothic-Bold.eot?#iefix') format('embedded-opentype'),
+    url('/common/fonts/kr/NanumGothic-Bold.woff') format('woff');
+}
+
+@font-face {
+    font-family:'Nanum Gothic';
+    font-style: normal;
+    font-weight: 800;
+    src: local('Nanum Gothic');
+    src: url('/common/fonts/kr/NanumGothic-ExtraBold.eot');
+    src: url('/common/fonts/kr/NanumGothic-ExtraBold.eot?#iefix') format('embedded-opentype'),
+    url('/common/fonts/kr/NanumGothic-ExtraBold.woff') format('woff');
+}
+
+body, input, textarea, button, select, a {font-family: 'Roboto Condensed', 'Roboto', 'cwTeXFangSong', 'Dotum', 'Zawgyi-Tai', Yunghkio, Myanmar3, 'Masterpiece Uni Sans', "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", Osaka, "メイリオ", Meiryo, "ＭＳ Ｐゴシック", "MS PGothic", Arial, sans-serif;}

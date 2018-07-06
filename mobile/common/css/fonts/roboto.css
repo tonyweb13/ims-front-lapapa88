@@ -1,0 +1,74 @@
+@font-face {
+    font-family:'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    src:local('Roboto');
+    src: url('/common/fonts/en/Roboto-Light-webfont.eot');
+    src:  url('/common/fonts/en/Roboto-Light-webfont.eot?#iefix') format('embedded-opentype'),
+    url('/common/fonts/en/Roboto-Light-webfont.woff') format('woff'),
+    url('/common/fonts/en/Roboto-Light-webfont.ttf') format('ttf');
+}
+
+@font-face {
+    font-family:'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    src:local('Roboto');
+    src: url('/common/fonts/en/Roboto-Regular-webfont.eot');
+    src: url('/common/fonts/en/Roboto-Regular-webfont.eot?#iefix') format('embedded-opentype'),
+    url('/common/fonts/en/Roboto-Regular-webfont.woff') format('woff'),
+    url('/common/fonts/en/Roboto-Regular-webfont.ttf') format('ttf');
+}
+
+@font-face {
+    font-family:'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    src:local('Roboto');
+    src: url('/common/fonts/en/Roboto-Bold-webfont.eot');
+    src: url('/common/fonts/en/Roboto-Bold-webfont.eot?#iefix') format('embedded-opentype'),
+    url('/common/fonts/en/Roboto-Bold-webfont.woff') format('woff'),
+    url('/common/fonts/en/Roboto-Bold-webfont.ttf') format('ttf');
+}
+
+/*Roboto Condensed*/
+@font-face {
+    font-family:'Roboto Condensed';
+    font-style: normal;
+    font-weight: 400;
+    src:local('Roboto Condensed');
+    src: url('/common/fonts/en/Roboto-Condensed-webfont.eot');
+    src: url('/common/fonts/en/Roboto-Condensed-webfont.eot?#iefix') format('embedded-opentype'),
+    url('/common/fonts/en/Roboto-Condensed-webfont.woff') format('woff'),
+    url('/common/fonts/en/Roboto-Condensed-webfont.ttf') format('ttf');
+}
+
+@font-face {
+    font-family:'Roboto Condensed';
+    font-style: normal;
+    font-weight: 700;
+    src:local('Roboto Condensed');
+    src: url('/common/fonts/en/Roboto-BoldCondensed-webfont.eot');
+    src: url('/common/fonts/en/Roboto-BoldCondensed-webfont.eot?#iefix') format('embedded-opentype'),
+    url('/common/fonts/en/Roboto-BoldCondensed-webfont.woff') format('woff'),
+    url('/common/fonts/en/Roboto-BoldCondensed-webfont.ttf') format('ttf');
+}
+
+@font-face {
+    font-family: 'Zawgyi-Tai';
+    font-style: normal;
+    font-weight: normal;
+    src:local('Zawgyi-Tai');
+    src: url('/common/fonts/my/Zawgyi-Tai.eot');
+    src: url('/common/fonts/my/Zawgyi-Tai.eot?#iefix') format('embedded-opentype'),
+    url('/common/fonts/my/Zawgyi-Tai.woff') format('woff'),
+    url('/common/fonts/my/Zawgyi-Tai.ttf') format('ttf');
+}
+
+body, a, input, textarea, button, select {font-family: 'Roboto', 'cwTeXFangSong', 'Dotum', 'Zawgyi-Tai', Yunghkio, Myanmar3, 'Masterpiece Uni Sans', sans-serif;}
+
+@media only screen and (max-width: 320px) and (orientation: portrait) {
+    #sports-buttons-5 .gamebutton h2, #sports-buttons-4 .gamebutton h2, #sports-buttons-3 .gamebutton h2 {
+        font-size: 16px;
+    }
+}

@@ -1,0 +1,9 @@
+body, input, textarea, button, select, a, #lang-list li {font-family: 'Roboto Condensed', 'Roboto', 'Zawgyi-Tai', "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", Osaka, "メイリオ", Meiryo, "ＭＳ Ｐゴシック", "MS PGothic", Arial, sans-serif;}
+
+@media only screen and (max-width: 320px) and (orientation: portrait) {
+    #sports-buttons-5 .gamebutton h2, #sports-buttons-4 .gamebutton h2, #sports-buttons-3 .gamebutton h2 {
+        font-size: 13px;
+    }
+}
+
+#livecasino-buttons-3 .gamebutton h2 {font-size: 14px; line-height: 15px;}

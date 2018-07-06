@@ -1,0 +1,133 @@
+/*Roboto*/
+@font-face {
+    font-family:'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    src:local('Roboto');
+    src: url('/common/fonts/en/Roboto-Light-webfont.eot');
+    src:  url('/common/fonts/en/Roboto-Light-webfont.eot?#iefix') format('embedded-opentype'),
+    url('/common/fonts/en/Roboto-Light-webfont.woff') format('woff'),
+    url('/common/fonts/en/Roboto-Light-webfont.ttf') format('ttf');
+}
+
+@font-face {
+    font-family:'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    src:local('Roboto');
+    src: url('/common/fonts/en/Roboto-Regular-webfont.eot');
+    src: url('/common/fonts/en/Roboto-Regular-webfont.eot?#iefix') format('embedded-opentype'),
+    url('/common/fonts/en/Roboto-Regular-webfont.woff') format('woff'),
+    url('/common/fonts/en/Roboto-Regular-webfont.ttf') format('ttf');
+}
+
+@font-face {
+    font-family:'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    src:local('Roboto');
+    src: url('/common/fonts/en/Roboto-Bold-webfont.eot');
+    src: url('/common/fonts/en/Roboto-Bold-webfont.eot?#iefix') format('embedded-opentype'),
+    url('/common/fonts/en/Roboto-Bold-webfont.woff') format('woff'),
+    url('/common/fonts/en/Roboto-Bold-webfont.ttf') format('ttf');
+}
+
+/*Roboto Condensed*/
+@font-face {
+    font-family:'Roboto Condensed';
+    font-style: normal;
+    font-weight: 400;
+    src:local('Roboto Condensed');
+    src: url('/common/fonts/en/Roboto-Condensed-webfont.eot');
+    src: url('/common/fonts/en/Roboto-Condensed-webfont.eot?#iefix') format('embedded-opentype'),
+    url('/common/fonts/en/Roboto-Condensed-webfont.woff') format('woff'),
+    url('/common/fonts/en/Roboto-Condensed-webfont.ttf') format('ttf');
+}
+
+@font-face {
+    font-family:'Roboto Condensed';
+    font-style: normal;
+    font-weight: 700;
+    src:local('Roboto Condensed');
+    src: url('/common/fonts/en/Roboto-BoldCondensed-webfont.eot');
+    src: url('/common/fonts/en/Roboto-BoldCondensed-webfont.eot?#iefix') format('embedded-opentype'),
+    url('/common/fonts/en/Roboto-BoldCondensed-webfont.woff') format('woff'),
+    url('/common/fonts/en/Roboto-BoldCondensed-webfont.ttf') format('ttf');
+}
+
+@font-face {
+    font-family: 'Zawgyi-Tai';
+    font-style: normal;
+    font-weight: normal;
+    src:local('Zawgyi-Tai');
+    src: url('/common/fonts/my/Zawgyi-Tai.eot');
+    src: url('/common/fonts/my/Zawgyi-Tai.eot?#iefix') format('embedded-opentype'),
+    url('/common/fonts/my/Zawgyi-Tai.woff') format('woff'),
+    url('/common/fonts/my/Zawgyi-Tai.ttf') format('ttf');
+}
+
+@font-face {
+    font-family: 'Zawgyi-One';
+    font-style: normal;
+    font-weight: normal;
+    src:local('Zawgyi-One');
+    src: url('/common/fonts/my/Zawgyi-One.eot');
+    src: url('/common/fonts/my/Zawgyi-One.eot?#iefix') format('embedded-opentype'),
+    url('/common/fonts/my/Zawgyi-One.woff') format('woff'),
+    url('/common/fonts/my/Zawgyi-One.ttf') format('ttf');
+}
+
+@font-face {
+    font-family: 'myanmar3';
+    font-style: normal;
+    font-weight: normal;
+    src:local('myanmar3');
+    src: url('/common/fonts/my/myanmar3.woff') format('woff'),
+    url('/common/fonts/my/mm3-multi-os.ttf') format('ttf');
+}
+
+body, input, textarea, button, select, a, #lang-list li
+{font-family: 'Roboto Condensed', 'cwTeXFangSong', 'Dotum', 'Zawgyi-One', Yunghkio, 'Masterpiece Uni Sans', "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", Osaka, "メイリオ", Meiryo, "ＭＳ Ｐゴシック", "MS PGothic", Arial, sans-serif;}
+
+#nav-container ul li,
+#nav-container ul li a,
+.box-promos h3, .box-products h3, .box-customer h3,
+.product-items p,
+table.footer-table,
+.titleMobile li,
+.popup-desc,
+.balanceContainer,
+#popup-notice,
+#popup-notice .popup-content,
+.row-box em.note,
+#promo-slider p,
+#wallet-promo-slider p,
+.slot-item p, .slot-item strong,
+.signup-form,
+#popup-transfer, #popup-deposit,
+.sweet-alert,
+.safari-notice,
+#popup-transaction,
+.promo-box strong, .promo-box p,
+.promo-details-img p, .promo-details-body
+{font-family: 'Roboto', 'Dotum', 'cwTeXFangSong', 'Zawgyi-Tai', Yunghkio, Myanmar3, 'Masterpiece Uni Sans', "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", Osaka, "メイリオ", Meiryo, "ＭＳ Ｐゴシック", "MS PGothic", Arial, sans-serif;}
+
+.jackpot h1,
+.product-items h1,
+.customer-service,
+#promo-slider h1,
+.service-advantages h1,
+.pageTitleImage strong, .titleMobile h1,
+#popup-transfer h1, #popup-notice h1,
+.game-button h3,
+.popup-tabs ul.popTabs li
+{font-family: 'Roboto Condensed', 'Nanum Gothic', 'cwTeXFangSong', 'Zawgyi-Tai', Yunghkio, Myanmar3, 'Masterpiece Uni Sans', "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", Osaka, "メイリオ", Meiryo, "ＭＳ Ｐゴシック", "MS PGothic", Arial, sans-serif;}
+
+#nav-container ul li, #nav-container ul li a {font-size: 12px;}
+
+/*Game Buttons*/
+#game-buttons-4 .game-button h3 {font-size: 20px; line-height: 20px;}
+#game-buttons-3 .game-button h3 {font-size: 23px; line-height: 31px;}
+#game-buttons-2 .game-button h3 {font-size: 29px; letter-spacing: 0;}
+
+.customer-livechat {letter-spacing: 0;}
